@@ -4,8 +4,6 @@ from log_reg_service import register, login
 from product_service import get_products, buy_product
 from PIL import ImageTk, Image
 
-# from users_service import purchase_product
-
 
 def clear_window(window):
     for el in window.pack_slaves():
@@ -131,7 +129,6 @@ def render_register_screen(window):
         email_info = email.get()
         password_info = password.get()
         product = []
-        # print(username_info, email_info, password_info)
         result = register(username_info, email_info, password_info, product)
         if result:
             render_login_page(window)
