@@ -1,0 +1,1 @@
+{"username": "Roro", "email": "r@gmail.com", "password": "147", "product": []}

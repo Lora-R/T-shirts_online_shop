@@ -1,0 +1,4 @@
+{"username": "lora", "email": "lor@gmail.com", "password": "123", "product": [1, 3, 5]}
+{"username": "joro", "email": "j@gmail.com", "password": "111", "product": []}
+{"username": "Roro", "email": "r@gmail.com", "password": "147", "product": [8, 6, 5]}
+{"username": "newuser", "email": "new@abv.bg", "password": "183123", "product": []}
