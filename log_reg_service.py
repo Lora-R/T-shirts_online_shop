@@ -27,8 +27,6 @@ def register(username, email, password, product):
 
 def login(username, password):
     with open(USERS_FILE_PATH, 'r') as file, open(SESSION_FILE_PATH, 'w') as current_session_file:
-        # if file.read() == None:
-        #     return False
         for user_line in file:
             existing_user = json.loads(user_line.strip())
             if existing_user['username'] == username and existing_user['password'] == password:
@@ -39,5 +37,5 @@ def login(username, password):
 
 def current_user():
     with open(SESSION_FILE_PATH, 'r') as file:
-        # print(file.read().strip())
+      
         return json.loads(file.read().strip())['username']
